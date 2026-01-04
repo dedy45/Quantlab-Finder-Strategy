@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\strategies\base.py
+# hypothesis_version: 6.148.2
+
+[-1.0, 0.0, 0.0005, 0.001, 1.0, 365.25, 100000.0, 252, 'BaseStrategy', 'Input data is empty', 'base_strategy', 'close', 'config', 'date', 'direction', 'entry_date', 'entry_price', 'exit_date', 'exit_price', 'hybrid', 'initial_capital', 'long', 'lookback', 'market_neutral', 'mean_reversion', 'ml_based', 'momentum', 'name', 'pairs_trading', 'params', 'pnl', 'short', 'timestamp', 'type']

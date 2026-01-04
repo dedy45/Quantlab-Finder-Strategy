@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\deployment\mt5_bridge\order_executor.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.01, 0.1, 1.0, 50.0, 100.0, 150.0, 100, 500, 1000, 123456, 'Free margin too low', 'Insufficient margin', 'Invalid lot size', 'MT5 not connected', 'QuantLab close', 'Unknown error', 'action', 'ask', 'bid', 'buy', 'buy_limit', 'buy_stop', 'close', 'comment', 'deviation', 'error_code', 'error_message', 'execution_time_ms', 'lot', 'magic', 'order_id', 'position', 'price', 'sell', 'sell_limit', 'sell_stop', 'sl', 'success', 'symbol', 'ticket', 'timestamp', 'tp', 'type', 'type_filling', 'type_time', 'volume']

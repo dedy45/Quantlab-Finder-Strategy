@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\dash_ui\pages\data_studio.py
+# hypothesis_version: 6.148.2
+
+[100, '100vh', '1H', 'Data Load Error', 'Data Studio', 'Date Range', 'End Date', 'Load Data', 'No data available', 'OHLCV Data', 'Price Chart', 'Select symbol...', 'Start Date', 'Symbol', 'Timeframe', 'XAUUSD', 'align-items-end', 'backgroundColor', 'bg_primary', 'bg_tertiary', 'children', 'close', 'color', 'danger', 'date', 'displayModeBar', 'ds-alert-container', 'ds-data-info', 'ds-data-table', 'ds-end-date', 'ds-load-btn', 'ds-ohlcv-table', 'ds-price-chart', 'ds-start-date', 'ds-symbol-dropdown', 'figure', 'height', 'hidden', 'high', 'id', 'label', 'large', 'low', 'mb-0', 'mb-3', 'mb-4', 'me-2', 'minHeight', 'n_clicks', 'open', 'options', 'primary', 'success', 'text', 'text-danger', 'text-muted', 'text-muted ms-2', 'text-warning', 'text_bright', 'text_muted', 'value', 'visibility', 'volume', 'w-100', 'warning', '📊', '📋']

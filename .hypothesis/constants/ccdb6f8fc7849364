@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\data_engine\data_validator.py
+# hypothesis_version: 6.148.2
+
+[20.0, 100, 'DataFrame is None', 'DataFrame is empty', 'UNKNOWN', 'close', 'columns', 'duplicates', 'end_date', 'feature_rows', 'gap_count', 'high', 'inf_count', 'invalid_ohlc', 'low', 'median_interval', 'nan_count', 'open', 'original_rows', 'price_max', 'price_mean', 'price_min', 'reduction_pct', 'rows', 'start_date', 'test_start', 'timestamp', 'train_end', 'volume', 'volume_mean', 'zero_prices']

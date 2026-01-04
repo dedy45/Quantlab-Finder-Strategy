@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\deployment\paper_trading\performance_comparer.py
+# hypothesis_version: 6.148.2
+
+[-0.3, 0.0, 0.1, 0.15, 0.2, 0.3, 0.4, 1.0, 1.5, 252, 'WARNINGS:', '[OK]', '[WARN]', 'annual_return', 'backtest_max_dd', 'backtest_return', 'backtest_sharpe', 'backtest_volatility', 'correlation', 'dd_deviation', 'deviation_score', 'drawdown', 'is_acceptable', 'max_dd', 'n_days', 'p_value', 'paper_max_dd', 'paper_return', 'paper_sharpe', 'paper_volatility', 'recommendation', 'return', 'return_deviation', 'sharpe', 'sharpe_deviation', 't_statistic', 'volatility', 'volatility_deviation', 'warnings']

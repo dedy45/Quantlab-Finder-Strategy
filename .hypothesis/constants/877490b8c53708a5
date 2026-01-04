@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\feature_engine\talib\generator.py
+# hypothesis_version: 6.148.2
+
+[2.0, 'atr_periods', 'categories', 'config', 'correlation', 'ema', 'ffill', 'include_patterns', 'is_fitted', 'ma_periods', 'momentum', 'n_features', 'overlap', 'pattern', 'rsi_periods', 'sma', 'talib_features', 'volatility', 'volume']

@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\strategies\__init__.py
+# hypothesis_version: 6.148.2
+
+['BacktestResult', 'BaseStrategy', 'EWMACConfig', 'EWMACStrategy', 'EWMAC_VARIATIONS', 'MLStrategy', 'MLStrategyConfig', 'MeanReversionConfig', 'ModelType', 'MomentumConfig', 'MomentumStrategy', 'MultiEWMACStrategy', 'StrategyConfig', 'StrategySignal', 'StrategyType', 'calculate_half_life', 'calculate_zscore', 'ewmac_forecast', 'time_series_momentum']

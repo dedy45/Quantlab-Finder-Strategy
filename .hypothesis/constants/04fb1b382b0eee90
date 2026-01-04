@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\feature_engine\talib\momentum.py
+# hypothesis_version: 6.148.2
+
+['adx', 'apo', 'aroon_down', 'aroon_up', 'bop', 'cci', 'close', 'ffill', 'high', 'low', 'macd', 'macd_hist', 'macd_signal', 'macdext', 'macdext_hist', 'macdext_signal', 'macdfix', 'macdfix_hist', 'macdfix_signal', 'mfi', 'minus_di', 'mom_10', 'n_features', 'plus_di', 'ppo', 'roc_10', 'rsi_periods', 'stoch_d', 'stoch_k', 'stochf_d', 'stochf_k', 'stochrsi_d', 'stochrsi_k', 'talib_momentum', 'ultosc', 'volume']

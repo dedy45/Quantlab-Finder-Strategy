@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\backtest\vectorbt\adapter.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.1, 0.2, 0.25, 1.0, 2.0, 100, 252, '1D', 'Close', 'Custom', 'UNKNOWN', 'Unknown', '__dict__', 'close', 'config', 'entry_date', 'entry_price', 'exit_date', 'exit_price', 'fit', 'fixed', 'max_drawdown', 'max_position_size', 'name', 'percent', 'pnl', 'position', 'position_sizing', 'predict', 'return_pct', 'target_volatility', 'vol_lookback', 'volatility_target']

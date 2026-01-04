@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\feature_engine\pca_denoiser.py
+# hypothesis_version: 6.148.2
+
+[0.01, 0.1, 0.5, 100, 1000, 'Denoiser not fitted.', 'PCADenoiser', 'bounded', 'constant_residual', 'eigenvalues', 'method', 'n_noise', 'n_signal', 'pca_denoiser', 'shrinkage', 'targeted', 'variance_explained']

@@ -1,0 +1,103 @@
+# QuantLab - Core Dependencies
+# Python 3.10+ (Recommended: 3.11)
+# Conda Environment: lab-quant
+#
+# VERIFIED VERSIONS (2026-01-02):
+# All packages tested and working together
+
+# ============================================
+# DATA STORAGE & PROCESSING
+# ============================================
+numpy>=1.24.0,<2.0.0    # VectorBT requires numpy 1.x
+pandas>=2.0.0
+pyarrow>=14.0.0         # Required by ArcticDB
+arcticdb>=4.0.0         # Primary data storage (verified: 6.5.0)
+
+# ============================================
+# SCIENTIFIC COMPUTING
+# ============================================
+scipy>=1.10.0
+statsmodels>=0.14.0
+arch>=6.0.0
+numba>=0.58.0               # JIT compiler for LTTB downsampling (Dash UI)
+
+# ============================================
+# MACHINE LEARNING
+# ============================================
+scikit-learn>=1.3.0
+lightgbm>=4.0.0
+xgboost>=2.0.0
+hmmlearn>=0.3.0
+
+# ============================================
+# BACKTESTING ENGINES
+# ============================================
+vectorbt>=0.26.0        # Screening engine (verified: 0.28.2)
+nautilus_trader>=1.180.0  # Validation engine (verified: 1.221.0)
+
+# ============================================
+# TECHNICAL ANALYSIS
+# ============================================
+# TA-Lib - 150+ indicators, C-optimized
+# 
+# INSTALLATION OPTIONS:
+# 1. Windows (easiest): pip install TA-Lib-Precompiled
+# 2. Conda (all platforms): conda install -c conda-forge ta-lib
+# 3. Linux: sudo apt install ta-lib && pip install TA-Lib
+# 4. Mac: brew install ta-lib && pip install TA-Lib
+#
+# CHECK: python -c "import talib; print(talib.__version__)"
+TA-Lib>=0.4.28
+
+# ============================================
+# VISUALIZATION
+# ============================================
+matplotlib>=3.7.0
+plotly>=5.18.0
+seaborn>=0.13.0
+
+# ============================================
+# WEB UI (Dash - Simple & Proven)
+# ============================================
+dash>=2.14.0                    # Plotly Dash framework
+dash-bootstrap-components>=1.5.0  # Bootstrap components
+flask-caching>=2.0.0            # Server-side caching
+diskcache>=5.6.0                # Disk-based cache for long callbacks
+waitress>=2.1.0                 # Production WSGI server (Windows compatible)
+
+# ============================================
+# UTILITIES
+# ============================================
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+loguru>=0.7.0
+requests>=2.31.0
+
+# ============================================
+# DEVELOPMENT & TESTING
+# ============================================
+pytest>=7.4.0
+hypothesis>=6.0.0       # Property-based testing
+black>=23.0.0
+ruff>=0.1.0
+mypy>=1.5.0
+ipykernel>=6.25.0
+
+# ============================================
+# NOTES
+# ============================================
+# 1. freqtrade, mlflow, s3fs are NOT required for QuantLab
+#    If you see dependency conflicts with these packages,
+#    they are from your base Anaconda environment.
+#    
+#    To remove: pip uninstall freqtrade mlflow s3fs -y
+#
+# 2. Use conda environment 'lab-quant' for isolation:
+#    conda activate lab-quant
+#
+# 3. Verified working configuration:
+#    - VectorBT 0.28.2 + NumPy 1.26.4 ✓
+#    - Nautilus 1.221.0 + NumPy 1.26.4 ✓
+#    - Dash 3.3.0 ✓
+#    - ArcticDB 6.5.0 ✓

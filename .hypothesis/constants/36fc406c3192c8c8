@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\dash_ui\components\tables.py
+# hypothesis_version: 6.148.2
+
+[10000, ',.4f', ',d', '100%', '13px', '8px 12px', 'No data available', '_', 'auto', 'backgroundColor', 'bg_primary', 'bg_secondary', 'bg_tertiary', 'bold', 'border', 'color', 'float32', 'float64', 'fontSize', 'fontWeight', 'format', 'id', 'if', 'int32', 'int64', 'left', 'mb-0', 'minWidth', 'name', 'native', 'none', 'numeric', 'odd', 'overflowX', 'p-0', 'padding', 'primary', 'records', 'row_index', 'selected', 'sm', 'specifier', 'state', 'text', 'text-end', 'text-muted', 'textAlign', 'text_bright', 'timestamp', 'type']

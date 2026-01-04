@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\ui\state\backtest_state.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.1, 0.2, 0.45, 0.5, 0.55, 1.0, 1.5, 10.0, 20.0, 30.0, 80.0, 100.0, 100, '2020-01-01', '2024-12-31', 'Apr', 'Aug', 'Backtest complete', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'No backtest results', 'Nov', 'Oct', 'Sep', 'Validating inputs...', 'blue', 'color', 'default', 'drawdown', 'equity_curve', 'equity_dates', 'ewmac', 'execution_time', 'gray', 'green', 'max_drawdown', 'mean_reversion', 'metrics', 'ml_strategy', 'momentum', 'month', 'monthly_returns', 'nautilus', 'orange', 'profit_factor', 'red', 'return', 'sharpe_ratio', 'sortino_ratio', 'total_return', 'total_trades', 'trade_count', 'trades', 'vectorbt', 'win_rate', 'year']

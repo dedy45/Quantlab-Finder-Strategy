@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\data_engine\downloader.py
+# hypothesis_version: 6.148.2
+
+[200, '%Y-%m-%d', '.csv', '.parquet', '15m', '1d', '1h', '1m', '1w', '4h', '5m', 'CL=F', 'Downloading Binance', 'Downloading FRED', 'Downloading Tiingo', 'ES=F', 'FRED_API_KEY', 'F_CL', 'F_ES', 'F_GC', 'F_NG', 'F_ZN', 'GC=F', 'NG=F', 'No symbols specified', 'TIINGO_API_KEY', 'ZN=F', 'close', 'close_time', 'endDate', 'high', 'ignore', 'low', 'ms', 'open', 'open_time', 'quote_volume', 'startDate', 'symbol', 'taker_buy_base', 'taker_buy_quote', 'timestamp', 'token', 'trades', 'vol', 'volume', 'wb']

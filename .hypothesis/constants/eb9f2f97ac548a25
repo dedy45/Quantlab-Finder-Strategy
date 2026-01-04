@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\deployment\mt5_bridge\connector.py
+# hypothesis_version: 6.148.2
+
+[0.0, 1e-05, 0.01, 1.0, 100.0, 100000.0, 1000, 60000, 123456, 'Already connected', 'D1', 'H1', 'H4', 'M1', 'M15', 'M30', 'M5', 'MN1', 'USD', 'W1', 'account', 'ask', 'balance', 'bid', 'close', 'company', 'connected', 'connecting', 'currency', 'disconnected', 'dlls_allowed', 'equity', 'error', 'free_margin', 'high', 'last', 'leverage', 'login', 'low', 'margin', 'margin_level', 'mt5_available', 'name', 'open', 'password', 'path', 's', 'server', 'status', 'terminal_info', 'tick_volume', 'time', 'timeout', 'timestamp', 'trade_allowed', 'volume']

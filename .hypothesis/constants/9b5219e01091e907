@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\dash_ui\components\toast.py
+# hypothesis_version: 6.148.2
+
+[350, 5000, 8000, 9999, 'Error', 'Info', 'Success', 'Warning', 'borderLeft', 'danger', 'error', 'fixed', 'info', 'me-2', 'position', 'primary', 'right', 'secondary', 'success', 'toast-container', 'top', 'warning', 'width', 'zIndex', 'ℹ️', '⚠️', '✅', '❌']

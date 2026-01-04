@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\dash_ui\cache.py
+# hypothesis_version: 6.148.2
+
+[500, 1024, 3600, '%Y%m%d_%H%M%S', '*.pkl', '-', 'CACHE_DIR', 'CACHE_THRESHOLD', 'CACHE_TYPE', 'FileSystemCache', 'cache', 'count', 'dash_ui', 'data', 'newest', 'oldest', 'rb', 'size_mb', 'wb']

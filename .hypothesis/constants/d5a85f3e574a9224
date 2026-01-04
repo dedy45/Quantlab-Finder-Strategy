@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\deployment\mt5_bridge\signal_bridge.py
+# hypothesis_version: 6.148.2
+
+[1.0, 100, 5555, 'Delivery failed', 'MT5 not connected', 'QuantLab', 'Signal', 'comment', 'confidence', 'direct', 'file', 'id', 'localhost', 'lot_size', 'signal_type', 'signals/history/', 'sl_pips', 'socket', 'stop_loss', 'strategy_name', 'symbol', 'take_profit', 'timestamp', 'tp_pips', 'w']

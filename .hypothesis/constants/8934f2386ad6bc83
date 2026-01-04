@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\backtest\vectorbt\screener.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.3, 0.5, '-', '=', 'Custom', 'ML', 'MeanReversion', 'Momentum', 'SCREENING RESULTS', 'TOP 10 CANDIDATES:', 'UNKNOWN', '__init__', 'annual_return', 'asset', 'calmar', 'config', 'max_drawdown', 'params', 'profit_factor', 'sharpe', 'sortino', 'strategy', 'total_return', 'total_trades', 'volatility', 'win_rate']

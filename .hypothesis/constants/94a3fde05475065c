@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\ui\utils\kill_switch.py
+# hypothesis_version: 6.148.2
+
+[-100, 100, 'DeadMansSwitch', 'HardenedKillSwitch', 'KillSwitchResult', 'KillSwitchStatus', 'executing', 'failed', 'get_dead_mans_switch', 'get_kill_switch', 'idle', 'inf', 'last_ping', 'message', 'partial', 'positions_closed', 'positions_failed', 'python', 'running', 'seconds_since_ping', 'status', 'success', 'timeout_seconds', 'timestamp', 'triggered']

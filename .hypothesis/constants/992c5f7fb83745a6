@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\feature_engine\fractional_diff.py
+# hypothesis_version: 6.148.2
+
+[0.0, 1e-05, 0.05, 1.0, 'NON-STATIONARY', 'STATIONARY', 'adf_pvalue', 'adf_stat', 'auto', 'c', 'close', 'd', 'expanding', 'ffd', 'ffill', 'fractional_diff', 'is_stationary', 'method', 'threshold']

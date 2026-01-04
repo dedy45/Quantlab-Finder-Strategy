@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\ui\styles\__init__.py
+# hypothesis_version: 6.148.2
+
+['CHART_HEIGHT', 'CHART_HEIGHT_LARGE', 'CHART_HEIGHT_SMALL', 'COLORS', 'SPACING', 'button_danger_style', 'button_primary_style', 'button_success_style', 'card_style', 'get_line_colors', 'get_plotly_layout', 'header_style', 'input_style', 'kpi_card_style', 'page_container_style', 'select_style', 'sidebar_style', 'table_header_style', 'table_row_style', 'table_style']

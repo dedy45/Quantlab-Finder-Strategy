@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\deployment\base.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.15, 0.5, 1.0, 10.0, 20.0, 10000.0, 252, 10000, '1.0.0', 'QuantLabStrategy', 'annual_return', 'commission_bps', 'initial_capital', 'max_drawdown', 'max_leverage', 'message', 'metadata', 'n_observations', 'paper', 'platform', 'quantconnect', 'quantiacs', 'sharpe_ratio', 'slippage_bps', 'strategy_name', 'success', 'timestamp', 'total_return', 'volatility']

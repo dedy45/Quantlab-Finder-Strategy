@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\strategies\ewmac_strategy.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.5, 1.0, 2.5, 10.0, 20.0, 128, 256, 'Data cannot be None', 'Data cannot be empty', 'EWMACStrategy', 'MultiEWMACStrategy', 'close', 'ewmac', 'fast_span', 'fdm', 'forecast_scalar', 'multi_ewmac', 'n_strategies', 'name', 'slow_span', 'type', 'variations', 'vol_lookback', 'weights']

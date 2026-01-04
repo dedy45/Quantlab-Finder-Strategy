@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\validation_engine\psr.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.5, 0.95, 3.0, 252, 'NOT SIGNIFICANT', 'SIGNIFICANT']

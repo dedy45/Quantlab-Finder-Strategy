@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\ui\adapters\signal_adapter.py
+# hypothesis_version: 6.148.2
+
+[0.0, 1e-10, 0.01, 0.1, 0.25, 0.4, 0.5, 0.6, 1.0, 100, 252, 'BUY', 'Detected', 'N/A', 'No signals generated', 'None', 'SELL', 'Signal Balance', 'Signal Clustering', 'Signal Density', 'Signal Spacing', 'adx', 'avg_distance', 'bar_index', 'buy_count', 'checks', 'close', 'color', 'dates', 'description', 'error', 'get_signal_reasons', 'good', 'green', 'high', 'hurst', 'index', 'low', 'markers', 'mean_reversion', 'ml_strategy', 'momentum', 'name', 'ohlcv', 'ok', 'open', 'overall_quality', 'passed', 'poor', 'price', 'reason', 'red', 'row_count', 'score', 'sell_count', 'severity', 'signal', 'signals', 'symbol', 'timestamp', 'total_count', 'triangle-down', 'triangle-up', 'type', 'value', 'volatility', 'warning', 'x', 'y']

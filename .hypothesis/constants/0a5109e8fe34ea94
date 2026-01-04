@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\data_engine\validator.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.05, 0.5, 0.8, 100.0, 100, '2000-01-01', 'DataFrame is empty', 'INVALID', 'VALID', 'close', 'completeness', 'high', 'low', 'open', 'returns_kurtosis', 'returns_mean', 'returns_skew', 'returns_std', 'symbol', 'timestamp', 'volume']

@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\deployment\mt5_bridge\position_manager.py
+# hypothesis_version: 6.148.2
+
+[0.0, 1e-05, 2.0, 5.0, 20.0, 3600, 123456, 'Unknown error', 'action', 'buy', 'by_symbol', 'comment', 'current_price', 'duration_hours', 'long_positions', 'long_profit', 'long_volume', 'magic', 'open_price', 'open_time', 'position', 'positions', 'profit', 'profit_pips', 'sell', 'short_positions', 'short_profit', 'short_volume', 'sl', 'symbol', 'ticket', 'total_positions', 'total_profit', 'total_volume', 'tp', 'type', 'volume']

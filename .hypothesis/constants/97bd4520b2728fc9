@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\deployment\mt5_bridge\risk_guard.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.5, 0.8, 1.0, 5.0, 20.0, 50.0, 150.0, 500.0, 100, 'AUDJPY', 'AUDUSD', 'EUR', 'EURAUD', 'EURGBP', 'EURJPY', 'EURUSD', 'GBPJPY', 'GBPUSD', 'GOLD', 'JPY', 'MT5 not connected', 'NZDUSD', 'Trading halt reset', 'Trading halted', 'USD', 'USDCAD', 'USDCHF', 'USDJPY', 'XAGUSD', 'XAUUSD', 'breaches', 'can_trade', 'close_all', 'close_partial', 'consecutive_losses', 'critical', 'daily_drawdown', 'daily_pnl', 'daily_pnl_pct', 'daily_trades', 'danger', 'halt', 'level', 'margin', 'margin_level', 'margin_used_pct', 'none', 'open_positions', 'positions', 'profit', 'reduce', 'safe', 'timestamp', 'total_drawdown', 'total_drawdown_pct', 'volume', 'warn', 'warning', 'warnings']

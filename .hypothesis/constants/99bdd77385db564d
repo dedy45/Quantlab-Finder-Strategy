@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\ui\state\signal_state.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.01, 0.1, 0.2, 0.4, 0.55, 0.6, 25.0, 100, '2020-01-01', '2024-12-31', 'BUY', 'Buy Signal', 'Filters reset', 'N/A', 'No signals generated', 'None', 'Regime Filter', 'SELL', 'Sell Signal', 'Signal Balance', 'Signal Clustering', 'Signal Density', 'Signal Spacing', 'Signals cleared', 'Unknown filter type', 'adx', 'avg_distance', 'bar_index', 'color', 'date', 'dates', 'description', 'error', 'good', 'gray', 'green', 'hurst', 'info', 'markers', 'mean_reversion', 'message', 'ml_strategy', 'momentum', 'name', 'ohlcv', 'ok', 'orange', 'passed', 'passes', 'poor', 'price', 'reason', 'red', 'row_count', 'severity', 'signals', 'symbol', 'timestamp', 'triangle-down', 'triangle-up', 'type', 'unknown', 'value', 'volatility', 'warning', 'x', 'y']

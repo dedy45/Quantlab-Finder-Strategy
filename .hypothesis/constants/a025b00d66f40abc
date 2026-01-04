@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\data_engine\storage.py
+# hypothesis_version: 6.148.2
+
+[1024, 3600, '*', '*.parquet', 'Cache cleared', 'DatasetMetadata', 'csv', 'data/cache', 'data/processed', 'in', 'metadata.json', 'parquet', 'pyarrow', 'r', 'snappy', 'symbol', 'timestamp', 'unknown', 'w']

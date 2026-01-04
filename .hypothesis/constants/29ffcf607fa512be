@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\data_engine\base.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.05, '15m', '1d', '1h', '1m', '1w', '4h', '5m', 'Close', 'Date', 'High', 'Low', 'Open', 'Volume', 'adjClose', 'adjHigh', 'adjLow', 'adjOpen', 'adjVolume', 'asset', 'binance', 'close', 'crypto', 'data/cache', 'data/processed', 'date', 'equity', 'ffill', 'fred', 'futures', 'high', 'local', 'low', 'macro', 'open', 'open_time', 'quantiacs', 'symbol', 'tick', 'tiingo', 'time', 'timestamp', 'vol', 'volume', 'yahoo']

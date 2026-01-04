@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\ui\adapters\data_adapter.py
+# hypothesis_version: 6.148.2
+
+[0.0, 100, '%Y-%m-%d %H:%M:%S', 'ArcticDB', '_', 'close', 'data', 'date_end', 'date_start', 'dates', 'dt', 'error', 'has_next', 'has_prev', 'high', 'low', 'open', 'page', 'page_size', 'quality_score', 'row_count', 'source', 'timestamp', 'total_pages', 'total_rows', 'volume']

@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\strategies\ml_strategy.py
+# hypothesis_version: 6.148.2
+
+[-1.0, 0.0, 0.5, 0.7, 1.0, 100, 1000, 'MLStrategy', 'Model not fitted', 'coef_', 'feature_importances_', 'feature_lookbacks', 'lightgbm', 'linear', 'logistic', 'max_depth', 'ml_strategy', 'model_type', 'n_estimators', 'name', 'predict_proba', 'prediction_threshold', 'random_forest', 'rsi', 'trend', 'type', 'zscore']

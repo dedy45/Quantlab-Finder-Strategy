@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\data_engine\data_manager.py
+# hypothesis_version: 6.148.2
+
+[180, 1024, '%Y-%m-%d', '*.parquet', '1900-01-01', '1H', '2100-01-01', 'ArcticStore', 'QuantLab', '_', 'arcticdb', 'backend', 'close', 'data', 'data_dir', 'dukascopy', 'end', 'file', 'first', 'high', 'key', 'last', 'low', 'open', 'parquet', 'parquet_size_mb', 'processed', 'pyarrow', 'rows', 'snappy', 'source', 'start', 'symbol', 'timeframe', 'timestamp']

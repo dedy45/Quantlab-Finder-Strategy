@@ -1,0 +1,89 @@
+version: 0.7.0
+backtest:
+  initial_capital: 1000000.0
+  currency: USD
+  commission_pct: 0.001
+  slippage_pct: 0.0005
+  spread_pct: 0.0001
+  max_position_pct: 0.2
+  max_leverage: 1.0
+  position_sizing: volatility_target
+  max_drawdown_pct: 0.2
+  daily_loss_limit_pct: 0.05
+  target_volatility_pct: 0.25
+  vol_lookback: 36
+  fill_price: close
+  allow_shorting: true
+trading:
+  initial_capital: 10000.0
+  currency: USD
+  commission_pct: 0.002
+  slippage_pct: 0.001
+  max_position_pct: 0.1
+  max_leverage: 1.0
+  position_sizing: volatility_target
+  max_drawdown_pct: 0.15
+  daily_loss_limit_pct: 0.03
+  target_volatility_pct: 0.15
+  vol_lookback: 36
+  order_type: market
+  timeout_seconds: 30
+  retry_count: 3
+data:
+  primary_storage: arcticdb
+  data_dir: data
+  cache_dir: data/cache
+  arcticdb_path: data/arcticdb
+  default_source: dukascopy
+  default_symbol: XAUUSD
+  default_timeframe: 1H
+  available_timeframes:
+  - 15T
+  - 1H
+  - 4H
+  - 1D
+  min_bars_required: 1000
+  max_missing_pct: 0.05
+risk:
+  max_portfolio_drawdown: 0.2
+  max_correlation: 0.7
+  min_diversification: 3
+  max_single_position: 0.2
+  stop_loss_pct: 0.01
+  take_profit_pct: 0.04
+  kelly_fraction: 0.5
+  min_kelly_trades: 30
+  dd_reduction_threshold: 0.1
+  dd_reduction_factor: 0.5
+strategy:
+  momentum_fast_period: 20
+  momentum_slow_period: 50
+  mr_lookback: 20
+  mr_entry_z: 2.0
+  mr_exit_z: 0.5
+  ewmac_variations:
+  - - 8
+    - 32
+  - - 16
+    - 64
+  - - 32
+    - 128
+  - - 64
+    - 256
+  hurst_window: 100
+  vol_regime_window: 20
+validation:
+  min_psr: 0.95
+  min_dsr: 1.0
+  wf_n_splits: 5
+  wf_train_ratio: 0.8
+  wf_purge_gap: 5
+  max_sharpe_degradation: 0.3
+  robustness_n_simulations: 100
+  noise_levels:
+  - 0.01
+  - 0.02
+  - 0.05
+  screening_min_sharpe: 0.5
+  screening_max_dd: 0.3
+  screening_min_trades: 10

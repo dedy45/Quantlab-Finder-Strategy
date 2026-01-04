@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\data_engine\csv_loader.py
+# hypothesis_version: 6.148.2
+
+[100, 1024, ',', '1H', 'Ask', 'AskPrice', 'Bid', 'BidPrice', 'Close', 'DateTime', 'File not found', 'Last', 'Price', 'TickVolume', 'Ticks cannot be None', 'Time', 'Vol', 'Volume', 'ask', 'ask_price', 'bid', 'bid_price', 'close', 'columns', 'date', 'datetime', 'error', 'file', 'first', 'high', 'index', 'last', 'low', 'open', 'price', 'r', 'sample', 'size_mb', 'spread', 'tick_volume', 'time', 'timestamp', 'total_rows', 'utf-8', 'vol', 'volume']

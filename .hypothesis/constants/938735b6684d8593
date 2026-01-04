@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\ui\state\data_state.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.5, 100, 400, 1000, '#00d26a', '#0f3460', '#16213e', '#1a1a2e', '#2d3748', '#a0a0a0', '#dc3545', '#eaeaea', 'ArcticDB', 'Data cleared', 'Date filters cleared', 'No data', 'No data loaded', 'Price', '_', 'center', 'close', 'date_end', 'date_start', 'dates', 'high', 'low', 'open', 'paper', 'plotly_dark', 'quality_score', 'rgba(0,0,0,0)', 'row_count', 'source', 'timestamp', 'volume', 'x unified']

@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\data_engine\quantiacs_loader.py
+# hypothesis_version: 6.148.2
+
+['2015-01-01', 'API-Key', 'API_KEY', 'F_AX', 'F_BC', 'F_CL', 'F_ES', 'F_GC', 'F_HG', 'F_NG', 'F_NQ', 'F_SI', 'F_YM', 'F_ZB', 'F_ZN', 'assets', 'close', 'high', 'low', 'max_date', 'min_date', 'nasdaq100', 'open', 'pyarrow', 'snappy', 'sp500', 'symbol', 'tail', 'timestamp', 'vol', 'volume']

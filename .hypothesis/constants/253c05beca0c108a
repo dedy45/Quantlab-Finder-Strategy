@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\dash_ui\error_handler.py
+# hypothesis_version: 6.148.2
+
+[500, 5000, '%Y%m%d_%H%M%S_%f', 'ArcticDB', 'Error', 'No Data', 'No data available', 'Validation Error', 'alert-heading', 'args', 'danger', 'dash_ui', 'dash_ui.log', 'data', 'info', 'kwargs', 'logs', 'mb-0', 'mt-3', 'success', 'text-muted', 'utf-8', 'warning']

@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\data_engine\dukascopy_loader.py
+# hypothesis_version: 6.148.2
+
+[1e-05, 0.001, 0.01, 0.1, 1.0, 404, '%Y-%m-%d', '1H', '>IIIff', 'AUDUSD', 'BTCUSD', 'Bitcoin/US Dollar', 'DAX 30 Index', 'DEUIDXEUR', 'Dow Jones 30 Index', 'ETHUSD', 'EURGBP', 'EURJPY', 'EURUSD', 'Ethereum/US Dollar', 'Euro/British Pound', 'Euro/Japanese Yen', 'Euro/US Dollar', 'GBPJPY', 'GBPUSD', 'Gold/US Dollar', 'NASDAQ 100 Index', 'NZDUSD', 'S&P 500 Index', 'Silver/US Dollar', 'USA30IDXUSD', 'USA500IDXUSD', 'USATECHIDXUSD', 'USDCAD', 'USDCHF', 'USDJPY', 'XAGUSD', 'XAUUSD', 'ask', 'ask_volume', 'bid', 'bid_volume', 'close', 'data/cache/dukascopy', 'high', 'low', 'mid', 'name', 'open', 'pip', 'pyarrow', 'snappy', 'spread', 'symbol', 'timestamp', 'volume']

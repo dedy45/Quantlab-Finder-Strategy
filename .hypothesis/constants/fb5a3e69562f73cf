@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\feature_engine\labeling\meta_labeling.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.5, 0.55, 1.0, 100, 'MetaLabeler', 'bet_sizing', 'half_kelly', 'kelly', 'linear', 'max_bet', 'min_prob', 'n_samples', 'probability']

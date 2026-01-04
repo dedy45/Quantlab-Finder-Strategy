@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\dash_ui\components\cards.py
+# hypothesis_version: 6.148.2
+
+['-', '0.85rem', '500', 'alignItems', 'borderLeft', 'center', 'color', 'danger', 'display', 'down', 'flex', 'fontSize', 'fontWeight', 'g-3 mb-4', 'info', 'justifyContent', 'kpi-card h-100', 'label', 'mb-0 mt-2', 'mb-2', 'mb-3', 'me-2', 'primary', 'secondary', 'subtitle', 'success', 'text-center py-3', 'text-danger ms-2', 'text-end', 'text-muted', 'text-muted mb-2', 'text-success ms-2', 'text_bright', 'title', 'trend', 'up', 'value', 'warning', '↑', '↓']

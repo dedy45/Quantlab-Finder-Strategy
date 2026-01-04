@@ -1,0 +1,675 @@
+/*
+ * QuantLab Dash UI - Custom Styles
+ * 
+ * Features:
+ * - Dark/Light theme support
+ * - 3D shadow effects
+ * - Responsive mobile/tablet support
+ * - Dropdown menu for mobile
+ */
+
+/* =============================================================================
+   CSS VARIABLES - DARK THEME (Default)
+   ============================================================================= */
+
+:root,
+[data-theme="dark"] {
+    --bg-primary: #060606;
+    --bg-secondary: #1a1a1a;
+    --bg-tertiary: #252525;
+    --bg-input: #191919;
+    
+    --text-primary: #ADAFAE;
+    --text-muted: #888888;
+    --text-bright: #FFFFFF;
+    
+    --primary: #2A9FD6;
+    --primary-hover: #238ac2;
+    --secondary: #555555;
+    --success: #77B300;
+    --warning: #FF8800;
+    --danger: #CC0000;
+    --info: #9933CC;
+    
+    --border: #333333;
+    --border-light: #444444;
+    
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.5);
+    --shadow-glow: 0 0 15px rgba(42, 159, 214, 0.3);
+}
+
+/* =============================================================================
+   CSS VARIABLES - LIGHT THEME
+   ============================================================================= */
+
+[data-theme="light"] {
+    --bg-primary: #F5F5F5;
+    --bg-secondary: #FFFFFF;
+    --bg-tertiary: #E8E8E8;
+    --bg-input: #FFFFFF;
+    
+    --text-primary: #333333;
+    --text-muted: #666666;
+    --text-bright: #000000;
+    
+    --primary: #0D6EFD;
+    --primary-hover: #0b5ed7;
+    --secondary: #6C757D;
+    --success: #198754;
+    --warning: #FFC107;
+    --danger: #DC3545;
+    --info: #0DCAF0;
+    
+    --border: #DEE2E6;
+    --border-light: #E9ECEF;
+    
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
+    --shadow-glow: 0 0 15px rgba(13, 110, 253, 0.2);
+}
+
+/* =============================================================================
+   GLOBAL STYLES
+   ============================================================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+    font-family: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#app-container {
+    min-height: 100vh;
+    background-color: var(--bg-primary);
+}
+
+/* =============================================================================
+   MAIN LAYOUT - DESKTOP
+   ============================================================================= */
+
+.main-wrapper {
+    min-height: 100vh;
+    background-color: var(--bg-primary);
+}
+
+/* Desktop Sidebar */
+.sidebar-desktop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    z-index: 1000;
+    background-color: var(--bg-secondary);
+    border-right: 1px solid var(--border);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Content Container - Desktop */
+.content-container {
+    margin-left: 200px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: var(--bg-primary);
+}
+
+/* Mobile Header - Hidden on Desktop */
+.mobile-header-container {
+    display: none;
+}
+
+/* =============================================================================
+   SIDEBAR STYLES
+   ============================================================================= */
+
+.sidebar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-secondary);
+}
+
+.nav-item-hover {
+    background-color: transparent;
+    transition: all 0.2s ease;
+}
+
+.nav-item-hover:hover {
+    background-color: var(--bg-tertiary) !important;
+    transform: translateX(4px);
+    box-shadow: var(--shadow-sm);
+}
+
+.sidebar button:hover {
+    background-color: var(--primary) !important;
+    color: var(--text-bright) !important;
+    transform: scale(1.1);
+}
+
+/* =============================================================================
+   MOBILE LAYOUT (< 768px)
+   ============================================================================= */
+
+@media (max-width: 768px) {
+    /* Hide desktop sidebar */
+    .sidebar-desktop {
+        display: none !important;
+    }
+    
+    /* Show mobile header */
+    .mobile-header-container {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1001;
+    }
+    
+    /* Mobile header bar */
+    .mobile-header-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 15px;
+        background-color: var(--bg-secondary);
+        border-bottom: 1px solid var(--border);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Mobile dropdown menu */
+    .mobile-dropdown-menu {
+        display: none;
+        flex-direction: column;
+        background-color: var(--bg-secondary);
+        border-bottom: 1px solid var(--border);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+    
+    .mobile-dropdown-menu.show {
+        display: flex;
+        max-height: 400px;
+    }
+    
+    .mobile-menu-item {
+        display: flex;
+        align-items: center;
+        padding: 14px 20px;
+        color: var(--text-primary);
+        text-decoration: none;
+        border-bottom: 1px solid var(--border);
+        transition: background-color 0.2s ease;
+        font-size: 0.95rem;
+    }
+    
+    .mobile-menu-item:hover {
+        background-color: var(--bg-tertiary);
+        color: var(--text-bright);
+    }
+    
+    .mobile-menu-item:last-child {
+        border-bottom: none;
+    }
+    
+    /* Content with top padding for fixed header */
+    .content-container {
+        margin-left: 0 !important;
+        margin-top: 56px; /* Height of mobile header */
+        padding: 15px;
+        min-height: calc(100vh - 56px);
+    }
+    
+    /* Stack all columns */
+    .row > [class*="col-"] {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    /* Smaller typography */
+    h2 {
+        font-size: 1.3rem !important;
+    }
+    
+    h3 {
+        font-size: 1.1rem !important;
+    }
+    
+    /* Smaller cards */
+    .card {
+        margin-bottom: 12px !important;
+    }
+    
+    .card-header {
+        padding: 10px 12px !important;
+        font-size: 0.9rem;
+    }
+    
+    .card-body {
+        padding: 12px !important;
+    }
+    
+    /* Smaller buttons */
+    .btn {
+        padding: 8px 14px !important;
+        font-size: 0.85rem !important;
+    }
+    
+    /* Form inputs - prevent iOS zoom */
+    .form-control,
+    .form-select,
+    input {
+        font-size: 16px !important;
+    }
+}
+
+/* =============================================================================
+   SMALL MOBILE (< 480px)
+   ============================================================================= */
+
+@media (max-width: 480px) {
+    .mobile-header-bar {
+        padding: 10px 12px;
+    }
+    
+    .content-container {
+        padding: 10px;
+    }
+    
+    h2 {
+        font-size: 1.1rem !important;
+    }
+    
+    .btn {
+        padding: 6px 10px !important;
+        font-size: 0.8rem !important;
+    }
+    
+    .card-header {
+        padding: 8px 10px !important;
+        font-size: 0.85rem;
+    }
+    
+    .card-body {
+        padding: 10px !important;
+    }
+}
+
+/* =============================================================================
+   TABLET (768px - 1024px)
+   ============================================================================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .sidebar-desktop {
+        width: 180px;
+    }
+    
+    .content-container {
+        margin-left: 180px;
+        padding: 15px;
+    }
+}
+
+/* =============================================================================
+   CARDS - 3D SHADOW EFFECTS
+   ============================================================================= */
+
+.card {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 8px !important;
+    box-shadow: var(--shadow-md) !important;
+    transition: all 0.3s ease !important;
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: var(--shadow-lg) !important;
+    transform: translateY(-2px);
+    border-color: var(--primary) !important;
+}
+
+.card-header {
+    background-color: var(--bg-tertiary) !important;
+    border-bottom: 1px solid var(--border) !important;
+    color: var(--text-bright) !important;
+    font-weight: 600;
+    padding: 12px 16px !important;
+}
+
+.card-body {
+    color: var(--text-primary) !important;
+    padding: 16px !important;
+    background-color: var(--bg-secondary) !important;
+}
+
+/* =============================================================================
+   FORMS & INPUTS
+   ============================================================================= */
+
+.form-control,
+.form-select,
+input[type="date"],
+input[type="text"],
+input[type="number"] {
+    background-color: var(--bg-input) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 6px !important;
+    color: var(--text-primary) !important;
+    padding: 8px 12px !important;
+    transition: all 0.2s ease !important;
+}
+
+.form-control:focus,
+.form-select:focus,
+input:focus {
+    border-color: var(--primary) !important;
+    box-shadow: 0 0 0 2px rgba(42, 159, 214, 0.2) !important;
+    outline: none !important;
+}
+
+.form-label {
+    color: var(--text-primary) !important;
+    font-weight: 500;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
+}
+
+/* Dash Dropdown */
+.Select-control {
+    background-color: var(--bg-input) !important;
+    border-color: var(--border) !important;
+    border-radius: 6px !important;
+}
+
+.Select-menu-outer {
+    background-color: var(--bg-secondary) !important;
+    border-color: var(--border) !important;
+    border-radius: 6px !important;
+    box-shadow: var(--shadow-lg) !important;
+    z-index: 1002 !important;
+}
+
+.Select-option {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+}
+
+.Select-option:hover,
+.Select-option.is-focused {
+    background-color: var(--bg-tertiary) !important;
+}
+
+.Select-value-label {
+    color: var(--text-primary) !important;
+}
+
+.Select-placeholder {
+    color: var(--text-muted) !important;
+}
+
+/* =============================================================================
+   BUTTONS
+   ============================================================================= */
+
+.btn {
+    border-radius: 6px !important;
+    padding: 8px 16px !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary), var(--primary-hover)) !important;
+    border: none !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    box-shadow: var(--shadow-md), var(--shadow-glow) !important;
+    transform: translateY(-1px);
+}
+
+.btn-outline-primary {
+    color: var(--primary) !important;
+    border: 1px solid var(--primary) !important;
+    background: transparent !important;
+}
+
+.btn-outline-primary:hover {
+    background: var(--primary) !important;
+    color: white !important;
+}
+
+.btn-info {
+    background: var(--info) !important;
+    border: none !important;
+    color: white !important;
+}
+
+.btn-success {
+    background: var(--success) !important;
+    border: none !important;
+}
+
+.btn-danger {
+    background: var(--danger) !important;
+    border: none !important;
+}
+
+/* =============================================================================
+   ALERTS
+   ============================================================================= */
+
+.alert {
+    border-radius: 6px !important;
+    border: none !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+
+.alert-success {
+    background: rgba(119, 179, 0, 0.15) !important;
+    border-left: 4px solid var(--success) !important;
+    color: var(--success) !important;
+}
+
+.alert-warning {
+    background: rgba(255, 136, 0, 0.15) !important;
+    border-left: 4px solid var(--warning) !important;
+    color: var(--warning) !important;
+}
+
+.alert-danger {
+    background: rgba(204, 0, 0, 0.15) !important;
+    border-left: 4px solid var(--danger) !important;
+    color: var(--danger) !important;
+}
+
+.alert-info {
+    background: rgba(42, 159, 214, 0.15) !important;
+    border-left: 4px solid var(--primary) !important;
+    color: var(--primary) !important;
+}
+
+/* =============================================================================
+   PROGRESS BARS
+   ============================================================================= */
+
+.progress {
+    background-color: var(--bg-tertiary) !important;
+    border-radius: 10px !important;
+    height: 8px !important;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, var(--primary), var(--info)) !important;
+    border-radius: 10px !important;
+}
+
+/* =============================================================================
+   TABLES
+   ============================================================================= */
+
+.table {
+    color: var(--text-primary) !important;
+}
+
+.table thead th {
+    background-color: var(--bg-tertiary) !important;
+    color: var(--text-bright) !important;
+    border-bottom: 2px solid var(--border) !important;
+    font-weight: 600;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(42, 159, 214, 0.1) !important;
+}
+
+/* Dash DataTable */
+.dash-table-container {
+    border-radius: 6px !important;
+    overflow: hidden;
+}
+
+.dash-spreadsheet-container .dash-spreadsheet-inner th {
+    background-color: var(--bg-tertiary) !important;
+    color: var(--text-bright) !important;
+}
+
+.dash-spreadsheet-container .dash-spreadsheet-inner td {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--border) !important;
+}
+
+/* =============================================================================
+   ACCORDION
+   ============================================================================= */
+
+.accordion-item {
+    background-color: var(--bg-secondary) !important;
+    border-color: var(--border) !important;
+    margin-bottom: 4px;
+    border-radius: 6px !important;
+    overflow: hidden;
+}
+
+.accordion-button {
+    background-color: var(--bg-tertiary) !important;
+    color: var(--text-primary) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--primary) !important;
+    color: white !important;
+}
+
+.accordion-body {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+}
+
+/* =============================================================================
+   BADGES
+   ============================================================================= */
+
+.badge {
+    border-radius: 4px !important;
+    padding: 4px 8px !important;
+    font-weight: 500 !important;
+}
+
+/* =============================================================================
+   SCROLLBAR
+   ============================================================================= */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
+
+/* =============================================================================
+   LOADING SPINNER
+   ============================================================================= */
+
+._dash-loading {
+    background-color: rgba(6, 6, 6, 0.8) !important;
+}
+
+/* =============================================================================
+   PLOTLY CHARTS
+   ============================================================================= */
+
+.js-plotly-plot {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.js-plotly-plot .plotly .modebar-btn {
+    color: var(--text-muted) !important;
+}
+
+.js-plotly-plot .plotly .modebar-btn:hover {
+    color: var(--primary) !important;
+}
+
+/* =============================================================================
+   PRINT STYLES
+   ============================================================================= */
+
+@media print {
+    .sidebar-desktop,
+    .mobile-header-container {
+        display: none !important;
+    }
+    
+    .content-container {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+}
+
+/* =============================================================================
+   REDUCED MOTION (Accessibility)
+   ============================================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+    }
+}

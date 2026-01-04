@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\ui\adapters\trading_adapter.py
+# hypothesis_version: 6.148.2
+
+[0.0, 'ConnectionError', 'Not connected', 'Not connected to MT5', 'Position closed', 'Risk limits exceeded', 'TradingAdapter', 'TradingAdapterError', 'account', 'allowed', 'breaches', 'by_symbol', 'can_trade', 'closed', 'connected', 'daily_pnl', 'daily_pnl_pct', 'disconnected', 'error', 'failed', 'level', 'message', 'mt5_available', 'reason', 'status', 'success', 'total_positions', 'total_profit', 'total_volume', 'unavailable', 'unknown', 'warnings']

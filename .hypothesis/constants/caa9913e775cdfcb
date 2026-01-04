@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\feature_engine\base.py
+# hypothesis_version: 6.148.2
+
+['FeatureGenerator', 'Input data is empty', 'bfill', 'custom', 'date', 'ffill', 'log', 'mean', 'mean_reversion', 'minmax', 'momentum', 'price', 'rank', 'return', 'simple', 'statistical', 'technical', 'timestamp', 'volatility', 'volume', 'zero', 'zscore']

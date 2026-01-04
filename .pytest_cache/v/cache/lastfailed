@@ -1,0 +1,17 @@
+{
+  "tests/ui/test_state.py::TestAppState::test_app_state_default_values": true,
+  "tests/ui/test_state.py::TestAppState::test_app_state_dashboard_kpis_structure": true,
+  "tests/ui/test_state.py::TestAppState::test_app_state_active_strategies_is_list": true,
+  "tests/ui/test_state.py::TestAppState::test_app_state_portfolio_data_lists": true,
+  "tests/ui/test_state.py::TestDataState::test_data_state_default_values": true,
+  "tests/ui/test_state.py::TestDataState::test_data_state_ohlcv_data_is_dict": true,
+  "tests/ui/test_state.py::TestDataState::test_data_state_table_data_is_list": true,
+  "tests/ui/test_state.py::TestDataState::test_data_state_pagination_defaults": true,
+  "tests/ui/test_state.py::TestSettingsState::test_settings_state_default_values": true,
+  "tests/ui/test_state.py::TestSettingsState::test_settings_state_data_defaults": true,
+  "tests/ui/test_state.py::TestSettingsState::test_settings_state_backtest_defaults": true,
+  "tests/ui/test_state.py::TestSettingsState::test_settings_state_risk_defaults": true,
+  "tests/ui/test_state.py::TestSettingsState::test_settings_state_ui_defaults": true,
+  "tests/ui/test_state.py::TestSettingsState::test_settings_state_validation_errors_is_list": true,
+  "tests/ui/test_components.py::TestDownsampling::test_downsample_timeseries_reduces_points": true
+}

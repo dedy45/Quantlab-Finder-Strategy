@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\feature_engine\labeling\triple_barrier.py
+# hypothesis_version: 6.148.2
+
+[0.0, 1.0, 'TripleBarrierLabeler', 'barrier', 'close', 'config', 'datetime64[ns]', 'ewm', 'label', 'label_distribution', 'lower', 'lower_barrier', 'max_holding_period', 'n_events', 'none', 'pt_sl_ratio', 'return', 'std', 'touch_time', 'upper', 'upper_barrier', 'vertical', 'vol_lookback']

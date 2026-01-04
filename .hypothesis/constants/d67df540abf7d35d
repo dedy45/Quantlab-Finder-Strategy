@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\dash_ui\components\navbar.py
+# hypothesis_version: 6.148.2
+
+['/', '/backtest-arena', '/data-studio', '/settings', '0', '100%', '100vh', '10px', '12px 20px', '20px', '4px', '5px', 'Backtest Arena', 'Dash Prototype', 'Dashboard', 'Data Studio', 'QuantLab', 'Settings', 'absolute', 'block', 'border', 'borderBottom', 'borderColor', 'borderRadius', 'bottom', 'color', 'display', 'height', 'icon', 'marginBottom', 'marginRight', 'name', 'none', 'padding', 'path', 'position', 'relative', 'text', 'textDecoration', 'text_muted', 'v0.7.2', 'width', '⚙️', '🎯', '💾', '📊']

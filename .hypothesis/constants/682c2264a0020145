@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\ui\state\portfolio_state.py
+# hypothesis_version: 6.148.2
+
+[-0.123, -0.12, 0.0, 0.0003, 0.0005, 0.0006, 0.01, 0.015, 0.018, 0.02, 0.021, 0.03, 0.1, 0.148, 0.15, 0.2, 0.25, 0.28, 0.33, 0.34, 0.35, 0.4, 0.41, 0.42, 0.5, 1.0, 1.5, 1.65, 2.1, 252, '2024-01-01', '2024-10-01', '2024-11-01', '2024-12-01', '2025-01-01', 'Daily', 'Equal Weight (1/N)', 'ML Alpha', 'Mean Reversion EUR', 'Momentum Gold', 'Monthly', 'Quarterly', 'Volatility Target', 'Weekly', 'allocation_method', 'blue', 'correlation_matrix', 'daily', 'date', 'equal_weight', 'green', 'hrp', 'last_rebalance', 'max_dd', 'monthly', 'orange', 'portfolio_vol', 'quarterly', 'rebalance_frequency', 'red', 'risk_metrics', 'sharpe', 'sortino', 'strategy_names', 'var_95', 'volatility_target', 'weekly', 'weights']

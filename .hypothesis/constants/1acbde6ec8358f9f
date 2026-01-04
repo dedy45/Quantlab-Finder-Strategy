@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\deployment\paper_trading\paper_trader.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.001, 0.002, 0.01, 0.1, 10000.0, 252, 86400, 'BUY', 'CANCELLED', 'FILLED', 'FLAT', 'PENDING', 'REJECTED', 'SELL', '[LOSS]', '[WIN]', 'avg_pnl', 'commission', 'commission_pct', 'entry_price', 'equity', 'exit_price', 'exit_timestamp', 'final_capital', 'holding_days', 'initial_capital', 'max_drawdown', 'max_position_pct', 'pnl', 'pnl_pct', 'quantity', 'sharpe_ratio', 'side', 'slippage', 'slippage_pct', 'symbol', 'timestamp', 'total_commission', 'total_pnl', 'total_pnl_pct', 'total_slippage', 'total_trades', 'unnamed', 'win_rate', 'winning_trades']

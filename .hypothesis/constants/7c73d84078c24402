@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\ui\adapters\dashboard_adapter.py
+# hypothesis_version: 6.148.2
+
+[-12.3, 0.0003, 0.01, 0.18, 1.45, 1.85, 1.92, 2.1, 15.2, 28.5, 32.1, 45.6, 58.3, 97.2, 100, 365, 100000, '%Y-%m-%d', 'Apr', 'Aug', 'DashboardAdapter', 'Dec', 'EURUSD', 'Feb', 'Jan', 'Jul', 'Jun', 'ML Alpha', 'Mar', 'May', 'Mean Rev EUR', 'Momentum Gold', 'Nov', 'Oct', 'Sep', 'XAUUSD', 'active', 'arcticdb', 'available', 'backtest_engine', 'connected', 'correlation', 'dates', 'disconnected', 'empty', 'error', 'max_dd', 'mt5', 'name', 'paper', 'psr', 'return', 'sharpe', 'status', 'symbol', 'total_return', 'unavailable', 'unknown', 'values', 'win_rate']

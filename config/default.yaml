@@ -1,0 +1,168 @@
+# =============================================================================
+# QUANT LAB - DEFAULT CONFIGURATION
+# =============================================================================
+# Version: 0.7.0
+# 
+# This file contains default settings for Quant Lab.
+# To customize, copy to 'user.yaml' and modify as needed.
+# User settings override defaults.
+# =============================================================================
+
+version: "0.7.0"
+
+# =============================================================================
+# BACKTEST SETTINGS
+# =============================================================================
+backtest:
+  # Capital
+  initial_capital: 100000.0
+  currency: "USD"
+  
+  # Transaction Costs
+  commission_pct: 0.001      # 0.1% per trade
+  slippage_pct: 0.0005       # 0.05% slippage
+  spread_pct: 0.0001         # 0.01% spread
+  
+  # Position Sizing
+  max_position_pct: 0.20     # Max 20% per position
+  max_leverage: 1.0          # No leverage by default
+  position_sizing: "volatility_target"  # fixed, percent, volatility_target, kelly
+  
+  # Risk Limits
+  max_drawdown_pct: 0.20     # Stop at 20% drawdown
+  daily_loss_limit_pct: 0.05 # Stop at 5% daily loss
+  
+  # Volatility Targeting (Carver Method)
+  target_volatility_pct: 0.25  # 25% annual target vol
+  vol_lookback: 36             # 36 bars for vol estimation
+  
+  # Execution
+  fill_price: "close"        # close, open, vwap
+  allow_shorting: true
+
+# =============================================================================
+# LIVE/PAPER TRADING SETTINGS
+# =============================================================================
+trading:
+  # Capital (more conservative for live)
+  initial_capital: 10000.0
+  currency: "USD"
+  
+  # Transaction Costs (higher for live)
+  commission_pct: 0.002      # 0.2% per trade
+  slippage_pct: 0.001        # 0.1% slippage
+  
+  # Position Sizing (conservative)
+  max_position_pct: 0.10     # Max 10% per position
+  max_leverage: 1.0
+  position_sizing: "volatility_target"
+  
+  # Risk Limits (stricter)
+  max_drawdown_pct: 0.15     # Stop at 15% drawdown
+  daily_loss_limit_pct: 0.03 # Stop at 3% daily loss
+  
+  # Volatility Targeting
+  target_volatility_pct: 0.15  # 15% annual (conservative)
+  vol_lookback: 36
+  
+  # Execution
+  order_type: "market"       # market, limit
+  timeout_seconds: 30
+  retry_count: 3
+
+# =============================================================================
+# DATA SETTINGS
+# =============================================================================
+data:
+  # Storage
+  primary_storage: "arcticdb"  # arcticdb, parquet
+  data_dir: "data"
+  cache_dir: "data/cache"
+  arcticdb_path: "data/arcticdb"
+  
+  # Default Source
+  default_source: "dukascopy"  # dukascopy, quantiacs, yahoo
+  
+  # Timeframes
+  default_timeframe: "1H"
+  available_timeframes:
+    - "15T"
+    - "1H"
+    - "4H"
+    - "1D"
+  
+  # Data Quality
+  min_bars_required: 1000
+  max_missing_pct: 0.05      # Max 5% missing data
+
+# =============================================================================
+# RISK SETTINGS
+# =============================================================================
+risk:
+  # Portfolio Level
+  max_portfolio_drawdown: 0.20
+  max_correlation: 0.70      # Max correlation between strategies
+  min_diversification: 3     # Min number of uncorrelated strategies
+  
+  # Position Level
+  max_single_position: 0.20  # Max 20% in single position
+  stop_loss_pct: 0.02        # 2% stop loss per trade
+  take_profit_pct: 0.04      # 4% take profit (2:1 R:R)
+  
+  # Kelly Sizing
+  kelly_fraction: 0.5        # Half-Kelly for safety
+  min_kelly_trades: 30       # Min trades for Kelly calculation
+  
+  # Drawdown Control
+  dd_reduction_threshold: 0.10  # Start reducing at 10% DD
+  dd_reduction_factor: 0.5      # Reduce position by 50%
+
+# =============================================================================
+# STRATEGY SETTINGS
+# =============================================================================
+strategy:
+  # Momentum
+  momentum_fast_period: 20
+  momentum_slow_period: 50
+  
+  # Mean Reversion
+  mr_lookback: 20
+  mr_entry_z: 2.0
+  mr_exit_z: 0.5
+  
+  # EWMAC (Carver)
+  ewmac_variations:
+    - [8, 32]
+    - [16, 64]
+    - [32, 128]
+    - [64, 256]
+  
+  # Regime Detection
+  hurst_window: 100
+  vol_regime_window: 20
+
+# =============================================================================
+# VALIDATION SETTINGS
+# =============================================================================
+validation:
+  # PSR/DSR Targets
+  min_psr: 0.95              # 95% PSR required
+  min_dsr: 1.0               # DSR > 1.0 required
+  
+  # Walk-Forward
+  wf_n_splits: 5
+  wf_train_ratio: 0.8
+  wf_purge_gap: 5
+  max_sharpe_degradation: 0.30  # Max 30% degradation
+  
+  # Robustness
+  robustness_n_simulations: 100
+  noise_levels:
+    - 0.01
+    - 0.02
+    - 0.05
+  
+  # Screening
+  screening_min_sharpe: 0.5
+  screening_max_dd: 0.30
+  screening_min_trades: 10

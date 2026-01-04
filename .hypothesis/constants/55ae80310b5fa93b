@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\strategies\mean_reversion.py
+# hypothesis_version: 6.148.2
+
+[-1.0, 0.0, 0.45, 0.5, 1.0, 2.0, 100, 'Data cannot be None', 'Data cannot be empty', 'bollinger', 'close', 'combined', 'entry_z', 'exit_z', 'hurst', 'lookback', 'mean_reversion', 'name', 'rsi', 'rsi_period', 'signal_type', 'type', 'use_regime_filter', 'zscore']

@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\data_engine\cleaner.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.25, 0.75, 5.0, 100, '1d', '2000-01-01', 'D', '_returns', '_zscore', 'cleaning_report', 'close', 'drop', 'ffill', 'h', 'high', 'index', 'interpolate', 'iqr', 'last', 'linear', 'low', 'omit', 'open', 'symbol', 'timestamp', 'volume', 'zscore']

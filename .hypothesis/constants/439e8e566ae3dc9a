@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\backtest\nautilus\validator.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.0005, 0.001, 0.05, 0.1, 0.15, 0.2, 0.25, 0.5, 1.0, 2.0, 100, '-', '=', 'FAIL', 'PASS', 'UNKNOWN', 'asset', 'dd_dev', 'naut_maxdd', 'naut_return', 'naut_sharpe', 'params', 'passed', 'rejection', 'return_dev', 'score', 'sharpe_dev', 'strategy', 'vbt_maxdd', 'vbt_return', 'vbt_sharpe', 'volatility']

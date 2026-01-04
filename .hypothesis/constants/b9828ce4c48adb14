@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\dash_ui\utils\validators.py
+# hypothesis_version: 6.148.2
+
+[0.1, 0.5, 3.0, 5.0, 100, 200, 500, 3650, '%Y-%m-%d', '15T', '1D', '1H', '4H', 'End date is required', 'Entry Z-Score', 'Exit Z-Score', 'Fast Period', 'Lookback', 'Slow Period', 'Stop Loss %', 'Symbol is required', 'Take Profit %', 'entry_z', 'exit_z', 'fast_period', 'lookback', 'mean_reversion', 'momentum', 'slow_period', 'stop_loss', 'take_profit']

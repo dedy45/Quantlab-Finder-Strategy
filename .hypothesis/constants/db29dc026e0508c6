@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\ui\utils\performance.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.1, 3000.0, 100, 1000, 50000, '1H', 'Breakdown:', 'LazyLoader', 'PerformanceProfiler', 'PerformanceReport', 'TimingMetric', 'XAUUSD', 'async_timed', 'avg_ms', 'breakdown', 'duration_ms', 'error', 'get_profiler', 'input_points', 'iterations', 'max_ms', 'metadata', 'metrics', 'min_ms', 'name', 'output_points', 'passed', 'reset_profiler', 'row_count', 'symbol', 'target_ms', 'target_points', 'timed', 'timeframe', 'times', 'timestamp', 'total_time_ms', '✓ PASSED', '✗ FAILED']

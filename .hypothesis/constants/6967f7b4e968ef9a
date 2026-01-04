@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\dash_ui\components\charts.py
+# hypothesis_version: 6.148.2
+
+[0.03, 0.3, 0.5, 0.7, 1.02, 100, 2000, '%{text}', 'Benchmark', 'Correlation Matrix', 'Drawdown', 'Drawdown (%)', 'Equity', 'Equity Curve', 'Frequency', 'No data available', 'Price', 'Price Chart', 'RdBu_r', 'Return (%)', 'Returns', 'Returns Distribution', 'Rolling Metric', 'Strategy', 'Volume', 'bearish', 'bottom', 'bullish', 'close', 'danger', 'dash', 'font', 'h', 'high', 'large', 'legend', 'lines', 'low', 'medium', 'open', 'paper', 'primary', 'right', 'solid', 'success', 'text_muted', 'title', 'tozeroy', 'volume', 'warning', 'xaxis', 'yaxis']

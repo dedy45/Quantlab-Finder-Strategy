@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\ui\components\signal_components.py
+# hypothesis_version: 6.148.2
+
+[0.2, 0.55, 25.0, 100, '0', '0.01', '1', '100%', '100px', '120px', '15%', '2', '20%', '3', '30%', '35%', '4', '6px', '80px', '8px', 'Avg Distance', 'BUY', 'Buy', 'Check', 'Filter Type:', 'GOOD', 'No signals generated', 'POOR', 'Price', 'Reason', 'Regime Filter', 'Sell', 'Threshold:', 'Time', 'Total Signals', 'Type', 'UNKNOWN', 'WARNING', 'adx', 'alert-triangle', 'bg', 'bg_secondary', 'blue', 'bold', 'center', 'check', 'check-circle', 'color', 'danger', 'error', 'filter', 'good', 'gray', 'green', 'help-circle', 'hidden', 'hurst', 'icon', 'info', 'italic', 'label', 'medium', 'message', 'name', 'number', 'ok', 'orange', 'passed', 'poor', 'primary', 'reason', 'red', 'regime_filter_panel', 'severity', 'signal_table', 'solid', 'start', 'success', 'text', 'text_muted', 'timestamp', 'type', 'unknown', 'value', 'volatility', 'warning', 'wrap', 'x-circle']

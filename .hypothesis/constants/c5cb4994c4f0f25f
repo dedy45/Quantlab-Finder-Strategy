@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\feature_engine\talib\overlap.py
+# hypothesis_version: 6.148.2
+
+[0.02, 0.2, 2.0, 200, 'bb_bandwidth', 'bb_lower', 'bb_middle', 'bb_percent_b', 'bb_upper', 'close', 'dema', 'ema', 'ffill', 'high', 'kama', 'low', 'ma_periods', 'ma_types', 'n_features', 'sar', 'sar_signal', 'sma', 'talib_overlap', 'tema', 'wma']

@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\dash_ui\utils\downsampling.py
+# hypothesis_version: 6.148.2
+
+[-1.0, 0.0, 0.5, 2000, 'candlestick', 'close', 'high', 'line', 'low', 'open', 'volume']

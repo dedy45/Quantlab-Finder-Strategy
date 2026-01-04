@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\backtest\nautilus\adapter.py
+# hypothesis_version: 6.148.2
+
+[0.0, 0.0001, 0.1, 1.0, 2.0, 50.0, 100, 'Close', 'Custom', 'UNKNOWN', 'Unknown', '__dict__', 'buy', 'cancelled', 'close', 'commission', 'config', 'entry_date', 'entry_price', 'exit_date', 'exit_price', 'filled', 'fixed', 'limit', 'market', 'market_impact', 'name', 'partially_filled', 'pending', 'pnl', 'position', 'rejected', 'return_pct', 'sell', 'slippage', 'stop', 'stop_limit', 'volatility']

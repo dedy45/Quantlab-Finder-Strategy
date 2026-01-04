@@ -1,0 +1,4 @@
+# file: E:\aiml\LAB-Quant\QuantLab\core\feature_engine\talib\volatility.py
+# hypothesis_version: 6.148.2
+
+[0.5, 1.5, 'atr_14_ratio', 'atr_periods', 'close', 'ffill', 'high', 'low', 'n_features', 'rel_volatility', 'talib_volatility', 'trange', 'trange_ratio', 'vol_regime']

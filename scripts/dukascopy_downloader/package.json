@@ -1,0 +1,13 @@
+{
+  "name": "dukascopy-downloader",
+  "version": "1.0.0",
+  "description": "Download historical data from Dukascopy for Quant Lab",
+  "main": "download.js",
+  "scripts": {
+    "download": "node download.js",
+    "download:all": "node download_all.js"
+  },
+  "dependencies": {
+    "dukascopy-node": "^1.46.3"
+  }
+}
